@@ -25,7 +25,7 @@ app.get("/cadastro/:nome?", function(req,res){
     if (nome){
         res.send("<h1>produto " + nome + " criado!</h1>");
     }else{
-        res.send("produto criado!");
+        res.send("produto criadogfdsgs!");
     }
     
 })
